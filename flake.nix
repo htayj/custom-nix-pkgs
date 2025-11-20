@@ -14,7 +14,7 @@
       packages.x86_64-linux = {
         dectalk = callPackage ./dectalk.nix { };
         hxcfloppy = callPackage ./hxcfloppy.nix { }; # warning: extremely poorly packaged
-        pc98ripper = callPackage ./98ripper.nix { };
+        pc98ripper = callPackage ./pc98ripper.nix { };
       };
     };
 }

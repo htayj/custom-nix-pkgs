@@ -4,6 +4,7 @@
 }:
 stdenv.mkDerivation {
   pname = "98ripper";
+  version = "rev7f3e44df2e8b72a18e3d4c8df8fe589d6e6c1ab7";
   src = fetchFromGitLab {
     owner = "bunnylin";
     repo = "98ripper";
