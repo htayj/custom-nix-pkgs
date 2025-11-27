@@ -15,6 +15,9 @@
         dectalk = callPackage ./dectalk.nix { };
         hxcfloppy = callPackage ./hxcfloppy.nix { }; # warning: extremely poorly packaged
         pc98ripper = callPackage ./pc98ripper.nix { };
+        # ffglitch = callPackage ./ffglitch.nix { };
+        # fluxengine = callPackage ./fluxengine.nix { }; # latest fails, not sure if it is me or a change to the repo
+        fluxengine = callPackage ./fluxengine_upstream.nix { }; # fluxengine package stolen from a PR
       };
     };
 }
