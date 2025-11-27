@@ -16,7 +16,7 @@ stdenv.mkDerivation {
     owner = "dectalk";
     repo = "dectalk";
     rev = "c3c1e4ae4117f951d8d7f9ef2848408ec79047fd";
-    sha256 = "sha256-/Xk/X3j6poNG/13cvPUjda7LJu5BuWMT8/6BUSxcWZo=";
+    sha256 = "sha256-igptZv7KzA4lZdU4N40gzPtrlbSrqEXw3ACf2+BTmJ4=";
     leaveDotGit = true;
   };
   buildInputs = [
