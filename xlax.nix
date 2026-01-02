@@ -6,7 +6,7 @@
   libXext,
 }:
 stdenv.mkDerivation {
-  pname = "98ripper";
+  pname = "xlax";
   version = "rev7f3e44df2e8b72a18e3d4c8df8fe589d6e6c1ab7";
   src = fetchurl {
     url = "https://hea-www.harvard.edu/~fine/Tech/xlax2.4.tar.gz";
